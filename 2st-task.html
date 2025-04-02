@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent {
+            width: 300px;
+            height: 300px;
+            margin: 200px auto;
+            padding: 10px;
+            position: relative;
+            background-color: #eeeeeeb9;
+        }
+
+        .links {
+            padding-left: 5px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .links a {
+            display: inline-block;
+            width: 140px;
+            height: 20px;
+            text-align: center;
+            color: white;
+
+
+        }
+
+        .links #first {
+            background-color: blue;
+        }
+
+        .links #secound {
+            background-color: rgb(76, 76, 243);
+        }
+
+        .or {
+            position: relative;
+            width: 20px;
+            height: 50px;
+        }
+
+        .or::after {
+            content: "or";
+            text-align: center;
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border: transparent solid 1px;
+            border-radius: 50%;
+            background-color: #eee;
+            margin: 20px auto;
+            top: -6px;
+            left: 115px;
+        }
+
+        .user {
+            padding-left: 55px;
+        }
+
+        .login {
+            padding-left: 110px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="links">
+
+            <a id="first" href="https://www.bing.com/ck/a?!&&p=145c144b9de
+            26ebf6eaa8be56efdb8bbbdcbb609b7df97d9314ae6d999a93c
+            cdJmltdHM9MTc0MzQ2NTYwMA&ptn=3&ver=2&hsh=4&fclid=33
+            1498aa-7306-65cb-1457-8c4a72db64a4&psq=facebook&u=a
+            1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1"> facebook</a>
+            <a id="secound" href="https://www.bing.com/ck/a?!&&p=145c144b9de
+            26ebf6eaa8be56efdb8bbbdcbb609b7df97d9314ae6d999a93c
+            cdJmltdHM9MTc0MzQ2NTYwMA&ptn=3&ver=2&hsh=4&fclid=33
+            1498aa-7306-65cb-1457-8c4a72db64a4&psq=facebook&u=a
+            1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1"> twitter</a>
+        </div>
+
+        <div class="or"></div>
+        <div class="form">
+            <form>
+                <div class="user">
+                    <input type="text" placeholder="Username">
+                    <br>
+                    <br>
+                    <input type="password" placeholder=".......">
+                    <br>
+                </div>
+                <div class="inline-block">
+                    <input id="keep" type="checkbox">
+                    <label for="keep">keep me signed in</label>
+                    <a href="https://www.bing.com/ck/a?!&&p=145c144b9de
+                            26ebf6eaa8be56efdb8bbbdcbb609b7df97d9314ae6d999a93c
+                            cdJmltdHM9MTc0MzQ2NTYwMA&ptn=3&ver=2&hsh=4&fclid=33
+                            1498aa-7306-65cb-1457-8c4a72db64a4&psq=facebook&u=a
+                            1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1">forget your password ?</a>
+                </div>
+                <br>
+                <div class="login">
+                    <input type="submit" value="login">
+                </div>
+                <br>
+                <div class="end">
+                    not a member?
+                    <a href="https://www.bing.com/ck/a?!&&p=145c144b9de
+                            26ebf6eaa8be56efdb8bbbdcbb609b7df97d9314ae6d999a93c
+                            cdJmltdHM9MTc0MzQ2NTYwMA&ptn=3&ver=2&hsh=4&fclid=33
+                            1498aa-7306-65cb-1457-8c4a72db64a4&psq=facebook&u=a
+                            1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw&ntb=1"> ...............sign up now!</a>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
